@@ -6,8 +6,10 @@ authors = ["talahajeer <tala.hajeer@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+Faker = "^8.5.0"
 
 [tool.poetry.dev-dependencies]
+black = {version = "^21.5b2", allow-prereleases = true}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
